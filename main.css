@@ -18,12 +18,18 @@ body {
 .bg {
   background: url(http://elissaeng.com/gifs/art/paintings/2008/attica.jpg) no-repeat center center/cover;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
   z-index: -1;
   filter: blur(0px);
+  
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
 }
 
 
